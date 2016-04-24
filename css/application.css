@@ -14,19 +14,24 @@
 
 }
 
-body {
-  background-color: gray;
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #erargh {
-  text-align: left;
-  height: 25px;
   background-color: rgb(255,160,0);
-  margin-top: 0px;
 }
 
-#ourrrarrgh {
-  text-align: right;
+/*#ourrrarrgh {
+  background-color: gray;
+  width: 25px;
+}*/
+
+td {
+  border: 5px solid gray;
+  width: 100px;
+  height: 100px;
 }
 
 nav {
