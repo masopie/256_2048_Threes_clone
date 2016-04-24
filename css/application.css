@@ -15,8 +15,7 @@
 }
 
 table {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 #erargh {
@@ -29,9 +28,16 @@ table {
 }*/
 
 td {
-  border: 5px solid gray;
+  border: 5px solid black;
   width: 100px;
   height: 100px;
+  background-image:
+    linear-gradient(
+      black, gray
+    );
+  color: white;
+  font-size: 75px;
+  text-align: center;
 }
 
 nav {
