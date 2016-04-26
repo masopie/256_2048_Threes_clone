@@ -35,9 +35,12 @@ td {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+  text-align: center;
 }
 
 .row {
+  vertical-align: middle;
 }
 
 .cell {
@@ -56,7 +59,19 @@ td {
   font-weight: bold;
   font-size: 50px;
   text-align: center;
-  vertical-align: middle;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  overflow: hidden;
+}
+
+nav {
+  background-image:
+  linear-gradient(
+    black, gray
+  );
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
 }
 
 #erargh {
