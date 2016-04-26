@@ -25,6 +25,7 @@ td {
 
 .flex-container {
   height: 100%;
+  text-align: center;
   padding: 0;
   margin: 0;
   display: -webkit-box;
@@ -53,7 +54,7 @@ td {
   padding: 5px;
   width: 100px;
   height: 100px;
-  margin: 10px;
+  margin: 20px;
   line-height: 20px;
   color: white;
   font-weight: bold;
