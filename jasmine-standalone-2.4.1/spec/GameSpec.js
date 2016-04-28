@@ -15,5 +15,10 @@ describe("Game", function(){
   it("has a default board string", function(){
     var game = new Game();
     expect(game.board_string).toEqual("0020200000000000")
-  })
+  });
+
+  it("has 16 cell values (ie digits)", function(){
+    var game = new Game();
+    expect(game.board_string.length).toEqual(15)
+  });
 });
