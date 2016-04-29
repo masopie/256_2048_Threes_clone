@@ -19,6 +19,10 @@ describe("Game", function(){
 
   it("has 16 cell values (ie digits)", function(){
     var game = new Game();
-    expect(game.board_string.length).toEqual(15)
+    expect(game.board_string.length).toEqual(16)
   });
+
+  it("", function(){
+    
+  })
 });
