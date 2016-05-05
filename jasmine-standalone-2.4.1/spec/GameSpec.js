@@ -1,5 +1,5 @@
-describe("Do the Jasmine tests even work", function(){
-  it("works", function(){
+describe("Do the Jasmine tests even work come on lol gee golly", function(){
+  it("yep they work thank god", function(){
     expect(true).toEqual(true);
   });
 });
