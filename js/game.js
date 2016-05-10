@@ -19,7 +19,11 @@ var Game = function(newGameData) {
   }
 };
 
-//  Let's make that list of keys scalable with a prototype!
+//  Let's make that list of keys scalable with a prototype! (THIS ENABLES DEFAULT STRING WITH CONSTRUCTOR+PROTOTYPE FORMAT)
 Game.prototype.keys = {
   board_string: "0020200000000000"
 };
+
+// Game.prototype. = function () {
+//
+// };
